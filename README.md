@@ -5,8 +5,11 @@ This project can be used for Interaction Connect addin development.  It will cre
  This node server will setup proxies in this order
 
  http://localhost:8080/addins -> local src directory
+ 
  http://localhost:8080/config/addins.json -> local config/addins.json
+ 
  http://localhost:8080/api/ -> Proxy to ICWS on the CIC server
+ 
  Anything else -> proxied on to the configured Interaction Connect url
 
 
